@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Trainer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        .about, .services, .testimonials, .contact {
+            text-align: center;
+        }
+        .services {
+            background: #f4f4f4;
+        }
+        .services .service {
+            margin: 20px 0;
+        }
+        .testimonials .testimonial {
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact form input, .contact form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            width: 80%;
+            max-width: 500px;
+        }
+        .contact form button {
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo place holder">
+        <h1>Alessandro Caceres - Personal Trainer</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <img src="images/selfie_placeholder.jpeg" height="150">
+        <h2>About Me</h2>
+        <p>Hi, I'm Alessandro Caceres, a certified personal trainer with years of experience in helping people achieve their fitness goals. Whether you're looking to lose weight, build muscle, or improve your overall health, I'm here to guide you every step of the way.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <div class="service">
+            <h3>One-on-One Training</h3>
+            <p>Personalized training sessions tailored to your individual needs and goals.</p>
+        </div>
+        <div class="service">
+            <h3>Group Classes</h3>
+            <p>Engaging and energetic group workouts for all fitness levels.</p>
+        </div>
+        <div class="service">
+            <h3>Nutrition Coaching</h3>
+            <p>Comprehensive nutrition plans to complement your fitness routine.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <a href="mainto:placeholder"><img src="images/email.jpg" height="50" width="50"></a>
+        <a href="tel:04XXXXXXXX"><img src="images/phone.jpg" height="50" width="50"></a>
+    </section>
+</body>
+</html>
